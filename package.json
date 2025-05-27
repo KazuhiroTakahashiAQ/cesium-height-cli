@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "height": "node --loader ts-node/esm src/getOrthometricHeight.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "height-grid": "./src/grid.ts"
   },
   "keywords": [],
   "author": "",

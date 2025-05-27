@@ -35,3 +35,5 @@ logs/
 # Build
 build/
 out/
+
+*.csv
